@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pancreas Viewer</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <h1>Pancreas Anatomy Viewer</h1>
+  <p>The pancreas is a vital organ that plays a crucial role in digestion and blood sugar regulation. It is divided into three main parts: the head, body, and tail.</p>
+  <p>Click on the parts of the pancreas to learn more about them.</p>
+  <div class="image-container">
+    <img src="image/pancreas.png" usemap="#map" alt="Pancreas">
+    <map name="map">
+      <area shape="rect" coords="462,488,313,323" alt="Head" onclick="showInfo('Head of Pancreas')">
+      <area shape="rect" coords="703,516,462,301" alt="Body" onclick="showInfo('Body of Pancreas')">
+      <area shape="rect" coords="961,502,713,345" alt="Tail" onclick="showInfo('Tail of Pancreas')">
+      <area shape="rect" coords="1204,562,966,47" alt="spleen" onclick="showInfo('spleen')">
+      <area shape="rect" coords="221,715,101,230" alt="duodenum" onclick="showInfo('C-shaped curve of the duodenum')">
+      <area shape="rect" coords="358,539,405,669" alt="superior mesenteric artery" onclick="showInfo('superior mesenteric artery')">
+      <area shape="rect" coords="345,677,309,633" alt="superior mesenteric vein" onclick="showInfo('superior mesenteric vein')">
+    </map>
+  </div>
+  <div id="info"></div>
+   <!-- YouTube Video Section -->
+  <h2>Watch: Pancreas Anatomy Explanation</h2>
+  <div class="video-container">
+    <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/NZ4zcrTzUjA" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+    </iframe>
+  </div>
+  <div id="video-info">
+    <p>This video provides a detailed explanation of the pancreas anatomy, including its parts and functions.</p>
+  <!-- Detailed Pancreas Anatomy Section -->
+<section id="anatomy-details" class="center-content">
+  <h2>Brief Anatomy of the Pancreas</h2>
+
+  <h3>1. Head of the Pancreas</h3>
+  <p>The head of the pancreas is the broadest part, located on the right side of the abdomen. It lies within the C-shaped curve of the duodenum, making it closely related to the digestive tract. It also contains the uncinate process, a small extension that hooks behind the superior mesenteric vessels. Posteriorly, it is related to the inferior vena cava, and anteriorly to the stomach and transverse colon. This region is clinically significant due to its tendency to develop tumors that may obstruct nearby structures.</p>
+
+  <h3>2. Body of the Pancreas</h3>
+  <p>The body of the pancreas is the centrally located portion that extends horizontally across the abdomen. It lies posterior to the stomach and anterior to the aorta and vertebral column. The pancreatic duct runs through the body, eventually joining the bile duct to drain into the duodenum. It crosses over vital blood vessels, including the superior mesenteric artery and vein. The body serves both exocrine and endocrine functions, including the secretion of digestive enzymes and insulin.</p>
+
+  <h3>3. Tail of the Pancreas</h3>
+  <p>The tail is the narrow, tapering end of the pancreas that extends toward the left upper quadrant of the abdomen. It lies close to the hilum of the spleen and is the only part of the pancreas that is intraperitoneal. The tail contains a high concentration of pancreatic islets, making it important for hormone production. It is also at risk of injury during splenectomy or trauma to the left side of the abdomen. Careful surgical technique is required to avoid damage to this structure.</p>
+
+  <h3>4. C-shaped Curve of the Duodenum</h3>
+  <p>The duodenum forms a distinctive C-shaped curve that cradles the head of the pancreas. It serves as the first part of the small intestine and receives digestive enzymes and bile through ducts entering at the major duodenal papilla. The anatomical position of the duodenum helps locate the pancreas during clinical imaging or dissection. Its close proximity to the pancreas means that inflammation or tumors in either organ can affect the other, leading to symptoms like jaundice or pain.</p>
+
+  <h3>5. Superior Mesenteric Artery (SMA)</h3>
+  <p>The superior mesenteric artery arises from the abdominal aorta just below the celiac trunk. It passes behind the neck of the pancreas and in front of the uncinate process. The SMA supplies oxygen-rich blood to a large portion of the gastrointestinal tract, including the small intestine and part of the colon. Its position makes it a vital landmark in abdominal surgery. Any mass or enlargement in the pancreas, especially at the uncinate process, can compress the SMA and affect blood flow.</p>
+
+  <h3>6. Superior Mesenteric Vein (SMV)</h3>
+  <p>The superior mesenteric vein accompanies the SMA and is responsible for draining blood from the intestines. It runs behind the neck of the pancreas and joins the splenic vein to form the portal vein. This vein is essential for transporting nutrient-rich blood to the liver for metabolism. Its location behind the pancreas makes it vulnerable during pancreatic surgery. In cases of inflammation or tumors, the SMV may become compressed, affecting circulation and digestion.</p>
+
+  <h3>7. Spleen</h3>
+  <p>The spleen is located in the left upper quadrant of the abdomen and is closely associated with the tail of the pancreas. The splenic artery and vein pass along the upper border of the pancreas to reach the spleen. The proximity of the pancreas and spleen means that surgery involving one may affect the other. During splenectomy, special care must be taken to avoid damaging the tail of the pancreas, which could lead to leakage of pancreatic enzymes or postoperative complications.</p>
+
+  <h3>Conclusion</h3>
+  <p>The pancreas is a complex organ with critical digestive and endocrine functions. Its close relationships with the duodenum, spleen, and major blood vessels make it a central focus in abdominal anatomy and surgery. A detailed understanding of its structure and surrounding anatomy is crucial for diagnosing diseases, interpreting medical imaging, and performing surgical procedures safely. Mastery of pancreatic anatomy is essential for medical students, clinicians, and healthcare professionals alike.</p>
+</section>
+    <footer>
+    <p>HARUNA MUHAMMAD (BMS/ANT/20/1076)</p>
+    <p>  <a href="https://mail.google.com/mail/?view=cm&to=amirmuhammadabdullahi@gmail.com" target="_blank">
+    amirmuhammadabdullahi@gmail.com
+  </a>
+</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
